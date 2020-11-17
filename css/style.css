@@ -14,6 +14,9 @@ section{
 
 
 /*** Navbar ***/
+.navbar .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
 .navbar a{
 	  position: relative;
   text-decoration: none;
