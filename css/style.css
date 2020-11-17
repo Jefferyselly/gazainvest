@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*,body{
+	font-family: 'Montserrat', sans-serif;
+	margin : 0;
+	padding : 0;
+}
+section{
+	margin : 0;
+	padding : 60px;
+}
+
+
+
+
+/*** Navbar ***/
+.navbar a{
+	  position: relative;
+  text-decoration: none;
+  margin-right : 4px;
+  margin-left : 4px;
+
+}
+
+.navbar a:hover::after {
+ content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+  border: 1px solid #ED4C1E; 
+}
+.navbar a.btn:hover::after{
+	 content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+  border: 1px solid transparent;
+}
+
+/*** LEAD CAROUSEL -- SLIDER HOMEPAGE ***/
+#carouselExampleControls img{
+	height : 95vh;
+}
+#carouselExampleControls i{
+	color : black;
+}
+
+/*** Why Us ***/
+#whyUs p{
+	line-height: 30px;
+}
+#whyUs a{
+	text-decoration: none;
+	color : #f53900;
+	
+}
+#whyUs a:hover{
+	transform: scale(1.9);
+	color : green;
+}
+
+@media screen and (max-width: 750px) {
+/* CSS rules here for screens lower than 750px */
+.siteMargin {
+	margin-left : 1px;
+}
+}
+@media screen and (min-width: 750px) {
+ /*CSS rules here for screens above 750px */
+ .siteMargin{
+	margin-left : 9%;
+	margin-right : 9%;
+}
+}
