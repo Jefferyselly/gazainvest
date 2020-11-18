@@ -9,8 +9,12 @@ section{
 	margin : 0;
 	padding : 60px;
 }
-
-
+.text-success{
+	color : #005859 !important;
+}
+.btn-success{
+	background-color : #005859 !important;
+}
 
 
 
@@ -19,10 +23,12 @@ section{
 background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
 }
 .navbar a{
+	color : white !important;
 	  position: relative;
   text-decoration: none;
   margin-right : 4px;
   margin-left : 4px;
+
 
 }
 
@@ -82,30 +88,46 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 /*** Philosophy  ***/
 #philosophy p{
 	line-height: 30px;
-	color : grey;
+	color : white;
 }
 #philosophy button{
 	background-color: transparent;
-	color : #28a745;
-	border : 1px solid #fff;
+	color : white;
+	border : 1px solid #ffc107;
 	padding : 10px;
 }
 #philosophy button:hover{
-	background-color: #28a745;
+	background-color: #ffc107;
+	color : black;
+	border : #ffc107;
+}
+#philosophy ul{
 	color : white;
-	border : #28a745;
 }
+
 @media screen and (min-width : 750px){
-#philosophy img{
-	margin-top : -140px;
+#invest_img{
+	min-width : 400px;
+	margin-left : 60%;
+	height : 250px;
+	background-size: cover;
+
 }
 }
-@media screen and (max-width : 750px){
-#philosophy img{
-	width : 100%;
-	padding-bottom : 9px;
+
+@media screen and (max-width : 749px){
+#invest_img{
+	min-width : 300px;
+	
+	height : 250px;
+	background-size: cover;
+
 }
 }
+
+
+
+
 
 /*** Standards ***/
 @media screen and (min-width: 749px){
