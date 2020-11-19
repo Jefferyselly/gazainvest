@@ -15,17 +15,20 @@ section{
 .btn-success{
 	background-color : #005859 !important;
 }
-@media screen and (min-width: 749px){
+@media screen and (min-width: 750px){
 	p{
 		font-size: 15px;
 	}
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 749px){
 	p{
-		font-size: 18px;
+		font-size: 14px;
 	}
 	h2{
 		font-size: 22px;
+	}
+	body{
+		font-size: 14px;
 	}
 }
 
@@ -78,6 +81,10 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 	text-decoration: none;
 	color : #f53900;
 	
+}
+#whyUs .whyUs-image img{
+	width : 200px;
+	height : 200px;
 }
 #whyUs a:hover{
 	transform: scale(1.9);
@@ -151,6 +158,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/invest-banner.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 	
 
 }
@@ -214,7 +222,9 @@ width : 100%;
 #plans{
 
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/invest-banner.jpg);
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
 	
 
 }
