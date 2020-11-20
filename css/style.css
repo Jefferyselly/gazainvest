@@ -29,6 +29,7 @@ section{
 	}
 	body{
 		font-size: 14px;
+		overflow-x: hidden;
 	}
 }
 
@@ -617,4 +618,19 @@ padding-bottom : 60px;
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+
+/** Business Warning **/
+@media screen and (min-width : 750px){
+	.business-warning{margin-right : 10%;margin-left : 10%;background-color: white;color:red;padding:10px;
+		line-height : 10px;
+}
+}
+@media screen and (max-width : 749px){
+	.business-warning{background-color: white;color:red;padding:10px;
+		line-height : 8px;
+
+}
+
 }
