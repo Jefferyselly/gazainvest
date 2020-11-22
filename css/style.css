@@ -907,3 +907,12 @@ padding-bottom : 60px;
 	}
 }
 
+
+/******** ABOUT **********/
+.b_container{
+  margin :auto 3% !important;
+  line-height: 30px;
+}
+#mission i{
+  color : #ffc107!important;
+}
