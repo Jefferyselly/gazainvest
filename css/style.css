@@ -916,3 +916,12 @@ padding-bottom : 60px;
 #mission i{
   color : #ffc107!important;
 }
+#core_values .card{
+  background-color: #fff !important;
+  line-height: 30px;
+  padding : 10px;
+}
+#core_values h5{
+  font-weight: bold;
+  text-align: center;
+}
