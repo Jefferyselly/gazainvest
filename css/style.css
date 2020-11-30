@@ -429,11 +429,11 @@ padding-bottom : 60px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #f53900;
+  background-color: #18d26e;
 }
 
 #testimonials .owl-dot.active {
-  background-color: #18d26e;
+  background-color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -858,5 +858,53 @@ padding-bottom : 60px;
     margin : 0 !important;
     
     padding: 0 !important;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #005859;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #f53900;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
