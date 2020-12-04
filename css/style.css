@@ -68,7 +68,7 @@ section{
 background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
 }
 .navbar a{
-	color : white !important;
+	color : #000 !important;
 	  position: relative;
   text-decoration: none;
   margin-right : 4px;
@@ -96,7 +96,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 @media screen and (max-width : 750px){
  
 .navbar a{
-  color : white !important;
+  color : black !important;
     position: relative;
   text-decoration: none;
   margin-right : 4px;
