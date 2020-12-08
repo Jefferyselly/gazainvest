@@ -181,6 +181,15 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 #philosophy ul{
 	color : white;
 }
+#philosophy .card p{
+color : #000;
+}
+#philosophy .card{
+  padding : 15px;
+}
+#philosophy h5{
+  font-weight: bold;
+}
 
 @media screen and (min-width : 750px){
 #invest_img{
