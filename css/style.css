@@ -35,6 +35,17 @@ section{
     padding : 50px;
   }
 }
+.circle-icon {
+      background: #f53900;
+    width: 100px;
+    color : #fff;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 30px;
+}
 
 
 /*** SLIDER ****/
@@ -183,13 +194,28 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
 }
 #philosophy .card p{
 color : #000;
+
 }
 #philosophy .card{
   padding : 15px;
+  opacity: 1;
+
 }
+
 #philosophy h5{
   font-weight: bold;
 }
+@media screen and (max-width : 749px){
+#philosophy .row{
+
+
+  padding: 0;
+  margin-left: -30px;
+  margin-right: -30px;
+  
+
+}
+  }
 
 @media screen and (min-width : 750px){
 #invest_img{
@@ -438,7 +464,7 @@ padding-bottom : 60px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #18d26e;
+  background-color: #005859;
 }
 
 #testimonials .owl-dot.active {
@@ -452,6 +478,12 @@ padding-bottom : 60px;
   color: #fff;
   font-size: 14px;
   background: #005859;
+}
+#footer button{
+  padding: 10px;
+  color : white;
+  background-color: #f53900;
+  border-color: #f53900;
 }
 
 #footer .footer-top {
