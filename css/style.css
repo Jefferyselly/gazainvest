@@ -24,6 +24,9 @@ section{
 	p{
 		font-size: 14px;
 	}
+  h1{
+    font-size: 24px;
+  }
 	h2{
 		font-size: 22px;
 	}
@@ -49,15 +52,66 @@ section{
 
 
 /*** SLIDER ****/
+
+#slide1{
+  margin-top : 10%;
+}
+#slide1 ul li,#slide2 ul li{
+  font-size: 20px;
+}
+#slide1 h1, #slide1 ul, #slide1 p{
+  margin-left : 20%;
+}
+#slide1 img{
+  min-height: 561px !important;
+  min-width : 686px !important;
+}
+
+@media screen and (max-width : 992px){
+  #slide1{
+  margin-top : 10%;
+}
+#slide1 h1, #slide1 ul, #slide1 p{
+  margin-left : 3%;
+}
+#header_slider li, #header_slider p{
+  font-size:  14px !important;
+}
+}
+
+
+#slide2{
+  margin-top : 10%;
+}
+#slide2 h1, #slide2 ul, #slide2 p,#slide2 button{
+  margin-left : 20%;
+}
+#slide2 p{
+  font-size: 25px;
+}
+@media screen and (max-width : 992px){
+  #slide2{
+  margin-top : 10%;
+}
+#slide2 h1, #slide2 ul, #slide2 p{
+  margin-left : 3%;
+}
+}
+
+
 .slider{
   width : 100%;
   height : 100%;
   overflow: hidden;
   margin : 0;
 }
+.owl-carousel{
+  min-height: 300px !important;
+}
 
 .owl-nav .owl-prev,
 .owl-nav .owl-next {
+  display: none;
     position: absolute;
     top: 50%;
     left: 0;
@@ -69,10 +123,7 @@ section{
     right: 0;
 }
 .owl-carousel .owl-item img {
-    width: 100%;
-    height: 10%;
-    object-fit: cover;
-    max-width: initial;
+
 }
 /*** Navbar ***/
 .navbar .navbar-toggler-icon {
@@ -880,9 +931,13 @@ padding-bottom : 60px;
   color : white;
   padding: 10px
 }
-#investment h1{
+#investment h2{
   color : #f53900;
     font-weight: bold;
+    border-left: 4px solid #005859;
+    text-align: left;
+    padding : 6px;
+
 }
 #investment h5{
   font-weight: bold;
