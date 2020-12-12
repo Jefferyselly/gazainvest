@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 *,body{
 	font-family: 'Montserrat', sans-serif;
 	margin : 0;
@@ -52,7 +52,9 @@ section{
 
 
 /*** SLIDER ****/
-
+#header_slider h1{
+  font-family: 'Libre Baskerville', serif;
+}
 #slide1{
   margin-top : 10%;
 }
@@ -173,7 +175,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff'
   left: 25%;
   right: 25%;
   bottom: 0;
-  border: 1px solid #005859; 
+  border: 1px solid #fff; 
 }
 .navbar a.btn:hover::after{
    content: "";
