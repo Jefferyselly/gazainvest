@@ -55,6 +55,9 @@ section{
 #header_slider h1{
   font-family: 'Libre Baskerville', serif;
 }
+#header_slider .row{
+  min-height: 931px;
+}
 #header_slider button{
   background-color: #f53900;
   color : white;
@@ -124,6 +127,12 @@ section{
 #slide3 h1, #slide3 ul, #slide3 p{
   margin-left : 3%;
 }
+}
+
+@media screen and (min-width : 992px){
+  #header_slider button{
+    margin-left : 20%;
+  }
 }
 
 .slider{
