@@ -55,6 +55,13 @@ section{
 #header_slider h1{
   font-family: 'Libre Baskerville', serif;
 }
+#header_slider button{
+  background-color: #f53900;
+  color : white;
+  border : 1px solid #f53900;
+  border-radius: 4px;
+  padding: 10px;
+}
 #slide1{
   margin-top : 10%;
 }
@@ -85,7 +92,7 @@ section{
 #slide2{
   margin-top : 10%;
 }
-#slide2 h1, #slide2 ul, #slide2 p,#slide2 button{
+#slide2 h1, #slide2 ul, #slide2 p{
   margin-left : 20%;
 }
 #slide2 p{
@@ -100,6 +107,24 @@ section{
 }
 }
 
+
+#slide3{
+  margin-top : 10%;
+}
+#slide3 h1, #slide3 ul, #slide3 p{
+  margin-left : 20%;
+}
+#slide3 p{
+  font-size: 25px;
+}
+@media screen and (max-width : 992px){
+  #slide3{
+  margin-top : 10%;
+}
+#slide3 h1, #slide3 ul, #slide3 p{
+  margin-left : 3%;
+}
+}
 
 .slider{
   width : 100%;
