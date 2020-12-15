@@ -1056,3 +1056,11 @@ padding-bottom : 60px;
     margin-right : 0;
   }
 }
+
+/*** How to Invest ***/
+.invest_bullet{
+  background-color: #005859;
+  text-align : center;
+  color : white;
+  font-size: 100px;
+}
