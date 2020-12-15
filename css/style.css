@@ -1040,3 +1040,19 @@ padding-bottom : 60px;
     transform: rotate(360deg);
   }
 }
+
+/*** Terms & Conditions ***/
+#terms{
+  margin-left : 7%;
+  margin-right : 7%;
+  line-height: 30px;
+}
+#terms h4,#terms h3, #policy h4, #policy h3{
+  font-weight: bold;
+}
+@media screen and (max-width : 990px){
+  #terms{
+    margin-left : 0;
+    margin-right : 0;
+  }
+}
