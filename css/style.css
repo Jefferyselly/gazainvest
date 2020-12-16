@@ -327,6 +327,9 @@ color : #000;
 
 
 /*** Our Plans ***/
+#plans{
+  color : #000;
+}
 
 @media screen and (max-width : 749px){
 	#plans .container-fluid{
@@ -335,9 +338,9 @@ color : #000;
 
 #plans{
 
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/invest-banner.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/invest-banner.jpg);*/
+  background-color: #fff;
+	
 	
 
 }
@@ -400,9 +403,7 @@ width : 100%;
 
 #plans{
 
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/invest-banner.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: #fff;
 	
 	
 
