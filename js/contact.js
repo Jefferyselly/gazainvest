@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 		//CHANGE THE WHATSAPP ICON TO THE X-ICON
 		$('#wa-icon').removeAttr('class')
-		$('#x-icon').attr('class','fa fa-times fa-3x circle-icon animate__animated animate__fadeInLeft')
+		$('#x-icon').attr('class','fa fa-times fa-3x circle-icon2 animate__animated animate__fadeInLeft')
 
 
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 		//CHANGE THE X-ICON WO WHATSAPP ICON
 		$('#chatWithus').attr('class','d-inline')
-		$('#wa-icon').attr('class','fa fa-whatsapp fa-3x circle-icon animate__animated animate__fadeInRight')
+		$('#wa-icon').attr('class','fa fa-whatsapp fa-3x circle-icon2 animate__animated animate__fadeInRight')
 
 
 

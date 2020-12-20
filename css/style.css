@@ -1107,18 +1107,17 @@ box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
   color:#FFF;
   border-radius:50px;
   text-align:center;
-    
+
   /*box-shadow: 2px 2px 3px #999;*/
 }
-.my-float .circle-icon {
+.my-float .circle-icon2 {
       background: #1ebea5;
-    width: 90px;
-    color : #fff;
-    height: 80px;
+    color : #fff;    
     border-radius: 50%;
-    text-align: center;
-    line-height: 20px;
-    vertical-align: middle;
+    padding :10px;
+    margin-left: 6px;
+    margin-top :10px;
+    
 
 }
 #conversation{
@@ -1130,7 +1129,8 @@ box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
 }
 #conversation .title{
   margin : none;
-  background-color: #ffc107;
+  background-color: #005859;
+  color : white;
   padding: none;
   width : 100%;
 }
