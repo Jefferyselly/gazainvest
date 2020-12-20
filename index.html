@@ -34,7 +34,7 @@
 
 <!-- Header Navigation bar -->
 <nav class="navbar navbar-expand-lg navbar-light py-1 border-bottom" style="background-color: #fff;color:white">
-  <a class="navbar-brand" href="#"><img src="./img/logo.png" class="img-fluid img-responsive" width="180px" height="160px"></a>
+  <a class="navbar-brand" href="index.html"><img src="./img/logo.png" class="img-fluid img-responsive" width="180px" height="160px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:none">
     <!-- <span class="navbar-toggler-icon"></span> -->
     <i class="fa fa-bars"></i>
@@ -78,18 +78,18 @@
 <!-- End of Hader Navigation Bar -->
  <!-- ======= Hero Section ======= -->
   <section style="padding : 0" id="header_slider"> 
-    <div class="owl-carousel owl-theme">
+    <div class="owl-carousel owl-theme" style="z-index: -1">
    
     <div class="item">
        <div class="row">
-        <div class="col-md-6 py-2 px-4" id="slide2">
+        <div class="col-md-6 px-4" id="slide2">
          <h1>
            LET'S HELP YOU BECOME <font color='#f53900'>WEALTHY</font> ONE STEP AT A TIME
          </h1>
        <p>
          Unlike banks that let your cash sit in your accounts, we put your money to work and make more money for you, with no effort from you. Earn up to 38% investing with us
        </p>
-       <button> Invest Now</button>
+       <a href='howtoinvest.html'><button> Invest Now</button></a>
 
               
         <!-- <button class="btn" style="background-color: #f53900;color:white"> Start Investing </button> -->
@@ -103,14 +103,14 @@
 
         <div class="item">
        <div class="row">
-        <div class="col-md-6 py-2 px-4" id="slide2">
+        <div class="col-md-6 px-4" id="slide2">
          <h1>
            LONG TERM, <font color='#f53900'>SUSTAINABILITY</font> AND CREATING <font color='#f53900'>GENERATIONAL</font> WEALTH IS OUR DRIVE
          </h1>
        <p>
          We are passionate about building an investment Portfolio you can be proud of a life time and even transfer to your generation.
        </p>
-       <button> Learn More</button>
+       <a href='about.html'><button> Learn More</button></a>
 
               
         <!-- <button class="btn" style="background-color: #f53900;color:white"> Start Investing </button> -->
@@ -124,15 +124,14 @@
 
      <div class="item">
       <div class="row">
-        <div class="col-md-6 py-2 px-4" id="slide3">
+        <div class="col-md-6 px-4" id="slide3">
          <h1>
            BUILDING REAL WEALTH SINCE <font color='#005859'>2019!</font>
          </h1>
         <p>
           Gaza is a fast growing investment firm with an excellent track record of protecting and growing investors capital through oppourtunistic investment strategies across real estate, money market and agriculture led industries in hard assets and venture
         </p>
-        <button> Learn More </button>
-        
+        <a href='about.html'><button> Learn More</button></a>
         </div>
         <div class="col-md-6">
           <img src="./img/header3.png">
@@ -364,7 +363,7 @@ Track record of business profitability </li>
           <h3 class="text-center"> What our Investors Say</h3>
         </header>
 
-        <div class="owl-carousel testimonials-carousel">
+        <div class="owl-carousel testimonials-carousel" style="z-index: -1">
 
           <div class="testimonial-item">
             <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
@@ -635,9 +634,9 @@ M.O.Us, Risk Policies and every other Legal dealings.
          
            <center><a href="https://t.me/gazainvestments"> <button> Join Our Community </button></a></center>
 
-              <form action="" method="post">
+           <!--    <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            </form> -->
           </div>
 
         </div>
@@ -660,6 +659,46 @@ M.O.Us, Risk Policies and every other Legal dealings.
       </div>
      
     </div>
+
+    <!-- Floating Social Button -->
+    <div class="float">
+      <div id="conversation" class="d-none">
+         <div class="title py-3">
+          <div class="row">
+              <div class="col-2">
+                <i class="fa fa-whatsapp fa-3x"></i>
+              </div>
+              <div class="col-10">
+                <h4>Start a Conversation</h4>
+          <p class="">Contact our customer support on Whatsapp</p>
+              </div>
+              </div>
+
+          
+
+        </div>
+          <div class="py-3 px-3">
+            <p class="text-muted">the team typically replies in few minutes</p>
+<a href="https://wa.me/2347080815043?text=Hello..Gaza%20I%20am%20interested%20in%20your%20investment%20plans...my%20name%20is%20wm" style="text-decoration : none">
+            <div id="contact">
+              <img src="./img/ccare.png" width="54" height="54" class="float-left" style="margin-top: -17px;border-radius: 50px"> <font color='black'>Customer Care </font><i class="fa fa-whatsapp float-right fa-2x" style="color : #1ebea5"></i>
+            </div></a>
+        </div>
+
+      
+
+      
+      </div></div>
+     
+      <div class="my-float">
+          <a id="chatWithus">
+<span style="background-color:white;color:black;padding :10px;border-radius: 4px;-webkit-box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);z-index: 78432847284274871!important">Need help? <b> Chat with us</b></span><i class="fa fa-whatsapp fa-3x circle-icon" id="wa-icon"></i></a><i class="d-none" id="x-icon"></i> 
+   
+    </div>
+        
+    <!-- end Social button -->
     <div id="preloader"></div>
   </footer><!-- End Footer -->
 
@@ -670,6 +709,7 @@ M.O.Us, Risk Policies and every other Legal dealings.
   <script src="./assets/vendor/php-email-form/validate.js"></script>
   <script src="./assets/vendor/venobox/venobox.min.js"></script>
   <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="./js/contact.js"></script>
   <!-- <script src="./assets/vendor/aos/aos.js"></script> -->
 
 <!-- Custom JS -->

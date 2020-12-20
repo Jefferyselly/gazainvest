@@ -9,6 +9,9 @@ section{
 	margin : 0;
 	padding : 60px;
 }
+a{
+  text-decoration: none;
+}
 .text-success{
 	color : #005859 !important;
 }
@@ -54,6 +57,7 @@ section{
 /*** SLIDER ****/
 #header_slider h1{
   font-family: 'Libre Baskerville', serif;
+  z-index : 1;
 }
 #header_slider .row{
   min-height: 931px;
@@ -1064,4 +1068,116 @@ padding-bottom : 60px;
   text-align : center;
   color : white;
   font-size: 100px;
+}
+#howtoinvest button{
+  background-color: #f53900;
+  color: #fff;
+  border : 1px solid #f53900;
+  border-radius: 3px;
+  padding : 10px;
+}
+
+/********* Floating Social Button **********/
+.float{
+  position:fixed;
+  
+  /*height:60px;*/
+
+  bottom:90px;
+  right:90px;
+  /*background-color:#0C9;*/
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  /*box-shadow: 2px 2px 3px #999;*/
+    -webkit-box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 9px 0px rgba(0,0,0,0.75);
+}
+
+
+.my-float{
+  cursor: pointer;
+   position:fixed;
+  /*width:60px;
+  height:60px;*/
+  bottom:40px;
+  right:40px;
+  /*background-color:#0C9;*/
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+    
+  /*box-shadow: 2px 2px 3px #999;*/
+}
+.my-float .circle-icon {
+      background: #1ebea5;
+    width: 90px;
+    color : #fff;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+
+}
+#conversation{
+  background-color: #fff;
+  color:black;
+  
+  border-radius: 6px;
+  
+}
+#conversation .title{
+  margin : none;
+  background-color: #ffc107;
+  padding: none;
+  width : 100%;
+}
+#conversation #contact{
+  background-color : #f2f2f2;
+  padding :17px;
+  border-radius : 5px;
+  border-left:2px solid #ffc107;
+  cursor: pointer;
+}
+#conversation h4{
+  text-align: left;
+}
+#conversation p{
+  text-align: left;
+}
+
+@media screen and (max-width : 992px){
+.float{
+  position:fixed;
+  
+  /*height:60px;*/
+
+  bottom:90px;
+  right:0;
+  /*background-color:#0C9;*/
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  margin-left: 3px;
+  margin-right: 3px;
+  /*box-shadow: 2px 2px 3px #999;*/
+}
+
+
+.my-float{
+  cursor: pointer;
+   position:fixed;
+  /*width:60px;
+  height:60px;*/
+  bottom:20px;
+  right:10px;
+  /*background-color:#0C9;*/
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  z-index: 999999;
+  /*box-shadow: 2px 2px 3px #999;*/
+}
 }
