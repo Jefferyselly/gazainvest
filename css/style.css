@@ -52,15 +52,28 @@ a{
     vertical-align: middle;
     padding: 30px;
 }
+@media screen and (min-width : 990px){
+  #index_intro{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #index_intro i{
+    color : #f53900;
+  }
+}
+
 
 
 /*** SLIDER ****/
+#header_slider{
+  min-height: 1100px !important;
+}
 #header_slider h1{
   font-family: 'Libre Baskerville', serif;
   z-index : 1;
 }
 #header_slider .row{
-  min-height: 1090px;
+  min-height: 1100px !important;
 }
 #header_slider button{
   background-color: #f53900;
