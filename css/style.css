@@ -631,6 +631,9 @@ padding-bottom : 60px;
 #docs .owl-dot.active {
   background-color: #000;
 }
+#docs img{
+  width : 50%;
+}
 
 /*--------------------------------------------------------------
 # Footer
