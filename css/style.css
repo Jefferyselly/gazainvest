@@ -71,14 +71,14 @@ a{
 
 /*** SLIDER ****/
 #header_slider{
-  min-height: 800px !important;
+  min-height: 915px !important;
 }
 #header_slider h1{
   font-family: 'Libre Baskerville', serif;
   z-index : 1;
 }
 #header_slider .row{
-  min-height: 600px !important;
+  min-height: 917px !important;
 }
 #header_slider button{
   background-color: #f53900;
