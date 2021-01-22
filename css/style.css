@@ -9,6 +9,11 @@ section{
 	margin : 0;
 	padding : 60px;
 }
+@media screen and (max-width : 900px){
+  .adjust img{
+    
+  }
+}
 a{
   text-decoration: none;
 }
@@ -66,14 +71,14 @@ a{
 
 /*** SLIDER ****/
 #header_slider{
-  min-height: 1100px !important;
+  min-height: 800px !important;
 }
 #header_slider h1{
   font-family: 'Libre Baskerville', serif;
   z-index : 1;
 }
 #header_slider .row{
-  min-height: 1100px !important;
+  min-height: 600px !important;
 }
 #header_slider button{
   background-color: #f53900;
