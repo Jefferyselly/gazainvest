@@ -23,6 +23,12 @@ a{
 .btn-success{
 	background-color : #005859 !important;
 }
+@media screen and (max-width : 749px){
+  #img_adjust{
+    margin-top: 200px;
+}
+}
+
 @media screen and (min-width: 750px){
 	p{
 		font-size: 15px;
@@ -71,15 +77,13 @@ a{
 
 /*** SLIDER ****/
 #header_slider{
-  min-height: 915px !important;
+  /*min-height: 910px !important;*/
 }
 #header_slider h1{
   font-family: 'Libre Baskerville', serif;
   z-index : 1;
 }
-#header_slider .row{
-  min-height: 917px !important;
-}
+
 #header_slider button{
   background-color: #f53900;
   color : white;
@@ -102,6 +106,12 @@ a{
 }
 
 @media screen and (max-width : 992px){
+  #header_slider{
+    min-height: 200px;
+  }
+  #header_slider .row{
+  min-height: 800px !important;
+}
   #slide1{
   margin-top : 10%;
 }
@@ -154,6 +164,9 @@ a{
 @media screen and (min-width : 992px){
   #header_slider button{
     margin-left : 20%;
+  }
+  #header_slider .row{
+    min-height: 800px;
   }
 }
 
