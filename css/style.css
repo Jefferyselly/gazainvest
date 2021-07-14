@@ -110,7 +110,7 @@ a{
     min-height: 200px;
   }
   #header_slider .row{
-  min-height: 800px !important;
+  min-height: 400px !important;
 }
   #slide1{
   margin-top : 10%;
@@ -166,7 +166,7 @@ a{
     margin-left : 20%;
   }
   #header_slider .row{
-    min-height: 700px;
+    min-height: 670px;
   }
 }
 
